@@ -1,0 +1,10 @@
+{
+  "name": "thyme",
+  "version": "1.0.0",
+  "description": "timer abstraction",
+  "author": "adwilk@mac.com",
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.1.2"
+  }
+}
