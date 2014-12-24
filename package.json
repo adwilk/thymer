@@ -1,7 +1,10 @@
 {
   "name": "thymer",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "thymer.js",
+  "scripts": {
+    "test": "make test"
+  },
   "description": "javascript timer abstraction",
   "author": "adwilk@mac.com",
   "license": "MIT",
@@ -11,5 +14,8 @@
   },
   "dependencies": {
     "q": "^1.1.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
   }
 }
