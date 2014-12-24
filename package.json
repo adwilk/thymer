@@ -1,10 +1,14 @@
 {
   "name": "thymer",
   "version": "1.0.0",
+  "main": "thymer.js",
   "description": "javascript timer abstraction",
   "author": "adwilk@mac.com",
   "license": "MIT",
-  "repository": "https://github.com/adwilk/thymer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adwilk/thymer"
+  },
   "dependencies": {
     "q": "^1.1.2"
   }
