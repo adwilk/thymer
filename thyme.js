@@ -1,6 +1,6 @@
 var Q = require('q');
 
-var thyme = {
+module.exports = {
 	deffered:Q.defer(),
 	timeout:null,
 	interval:null,
@@ -34,4 +34,4 @@ var thyme = {
 		clearInterval(this.interval);
 		this.deffered.resolve();
 	}
-}
+};
