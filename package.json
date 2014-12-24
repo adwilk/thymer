@@ -1,7 +1,7 @@
 {
   "name": "thymer",
   "version": "1.0.0",
-  "main": "thymer.js",
+  "main": "index.js",
   "description": "javascript timer abstraction",
   "author": "adwilk@mac.com",
   "license": "MIT",
